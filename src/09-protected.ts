@@ -1,4 +1,4 @@
-export class Animal {
+export abstract class Animal {
   constructor(private name: string) {}
   move() {
     console.log('Moving alone!');
